@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  item: MyString
+  nserie: 1
+  sizeItem: 1
+  depGeneric: MyText
+  category: one
+
+two:
+  item: MyString
+  nserie: 1
+  sizeItem: 1
+  depGeneric: MyText
+  category: two
