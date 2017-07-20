@@ -1,7 +1,7 @@
 class User < ApplicationRecord
 	validates :name, presence: true
 	validates :email,  uniqueness: true
-	has_many :items
+	has_many :items, dependent: :destroy
 
 	before_save :norm_name
 
